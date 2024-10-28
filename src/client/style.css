@@ -1,0 +1,191 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('img/conejo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+}
+
+.container {
+    max-width: 90%; 
+    margin: 20px auto; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column; /* Para la página de inicio de sesión */
+}
+
+h1 {
+    text-align: center;
+    color: #FF4081; 
+    margin-bottom: 20px; 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; 
+}
+
+button {
+    padding: 10px;
+    background-color: #FF4081; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #D5006D; 
+}
+
+#message {
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+}
+
+/* Estilos para la página de mascotas */
+.user-container {
+    display: flex; /* Usar flexbox para alinear horizontalmente */
+    flex-wrap: wrap; /* Permitir que se ajusten a varias filas */
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+.user-card {
+    width: 300px; /* Ancho fijo */
+    margin: 10px; /* Espaciado entre tarjetas */
+    background: rgba(247, 246, 246, 0); /* Fondo blanco más transparente */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s; /* Efecto de transición */
+}
+
+.user-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(40, 167, 69, 0.8); /* Fondo verde con transparencia */
+    color: rgba(255, 255, 255, 0.342);
+    cursor: pointer;
+}
+
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    .container {
+        width: 95%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%; 
+        padding: 10px; 
+    }
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('img/conejo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+}
+
+h1 {
+    text-align: center;
+    color: #FF4081; 
+    margin-bottom: 20px; 
+}
+
+.user-container {
+    display: flex; /* Usar flexbox para alinear horizontalmente */
+    flex-wrap: wrap; /* Permitir que las tarjetas se ajusten a varias filas si es necesario */
+    justify-content: center; /* Centrar horizontalmente */
+    max-width: 90%; /* Limitar el ancho del contenedor */
+    margin: 0 auto; /* Centramos el contenedor */
+}
+
+.user-card {
+    width: 300px; /* Ancho fijo para las tarjetas */
+    margin: 10px; /* Espaciado entre tarjetas */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s; 
+}
+
+.user-card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    .user-card {
+        width: 90%; /* Tarjetas ocupan más ancho en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .user-card {
+        width: 100%; /* Tarjetas ocupan todo el ancho en móviles */
+    }
+}
+.container {
+    max-width: 300px; /* Cambiado a un ancho menor */
+    margin: auto;
+    padding: 15px; /* Reducido el padding */
+    background: rgba(255, 255, 255, 0.315); /* Manteniendo el fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px; /* Ajusta el tamaño del texto */
+    margin-bottom: 15px; /* Reducido espaciado */
+}
+
+input {
+    font-size: 14px; /* Ajusta el tamaño del texto en los inputs */
+    margin: 8px 0; /* Reducido espaciado */
+    padding: 8px; /* Reducido padding */
+}
+
+button {
+    font-size: 14px; /* Ajusta el tamaño del texto en el botón */
+    padding: 8px; /* Reducido padding */
+}
+
